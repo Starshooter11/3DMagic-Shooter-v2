@@ -72,6 +72,7 @@ public class PlayerAttackInfo
     {
         get { return m_color; }
     }
+<<<<<<< HEAD
 
     [SerializeField]
     private int m_killCountReq;
@@ -79,6 +80,8 @@ public class PlayerAttackInfo
     {
         get { return m_killCountReq; }
     }
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
     #endregion
 
     #region Public Variables
@@ -101,6 +104,7 @@ public class PlayerAttackInfo
     }
     #endregion
 
+<<<<<<< HEAD
     #region KC Checker Methods
     public bool meetsKCReq(int killCount)
     {
@@ -109,4 +113,6 @@ public class PlayerAttackInfo
 
     #endregion
 
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
 }

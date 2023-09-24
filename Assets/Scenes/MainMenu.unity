@@ -433,7 +433,10 @@ GameObject:
   - component: {fileID: 527356611}
   - component: {fileID: 527356610}
   - component: {fileID: 527356609}
+<<<<<<< HEAD
   - component: {fileID: 527356614}
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -539,6 +542,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!82 &527356614
 AudioSource:
   m_ObjectHideFlags: 0
@@ -635,6 +639,8 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
 --- !u!1 &754786074
 GameObject:
   m_ObjectHideFlags: 0

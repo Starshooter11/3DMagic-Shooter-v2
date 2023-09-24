@@ -84,7 +84,10 @@ public class EnemyController : MonoBehaviour
         if (p_curHealth <= 0)
         {
             ScoreManager.singleton.IncreaseScore(m_score);
+<<<<<<< HEAD
             KillCountManager.singleton.SetKillCount();
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
             if ( Random.value < m_healthPillDropRate)
             {
                 Instantiate(m_healthPill, transform.position, Quaternion.identity);

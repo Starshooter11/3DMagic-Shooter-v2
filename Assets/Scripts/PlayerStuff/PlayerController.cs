@@ -57,7 +57,10 @@ public class PlayerController : MonoBehaviour
 
         p_frozenTime = 0;
         p_curHealth = m_health;
+<<<<<<< HEAD
         
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
 
         for ( int i  = 0; i < m_attack.Length;  i++ )
         {
@@ -74,7 +77,10 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
+<<<<<<< HEAD
         KillCountManager.singleton.Reset();
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
     }
     #endregion
 
@@ -97,7 +103,11 @@ public class PlayerController : MonoBehaviour
         {
             PlayerAttackInfo attack = m_attack[i];
 
+<<<<<<< HEAD
             if ( attack.isReady() && attack.meetsKCReq(PlayerPrefs.GetInt("KC")))
+=======
+            if ( attack.isReady())
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
             {
                 if ( Input.GetButtonDown(attack.Button))
                 {
@@ -113,7 +123,10 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+<<<<<<< HEAD
         m_HUD.UpdateKillCounter();
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
 
         //how hard the player presses buttons
         float forward = Input.GetAxis("Vertical");

@@ -13,7 +13,10 @@ GameObject:
   - component: {fileID: 6387494426261541910}
   - component: {fileID: -1474824834074195301}
   - component: {fileID: -7781358351230765175}
+<<<<<<< HEAD
   - component: {fileID: -8452272802621016869}
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
   m_Layer: 12
   m_Name: MegaLaser
   m_TagString: AttackAbility
@@ -4926,7 +4929,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_info:
+<<<<<<< HEAD
     m_power: 25
+=======
+    m_power: 10
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
     m_range: 25
 --- !u!114 &-7781358351230765175
 MonoBehaviour:
@@ -4941,6 +4948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TimeToDestruction: 4
+<<<<<<< HEAD
 --- !u!82 &-8452272802621016869
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5037,3 +5045,5 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75

@@ -13,7 +13,10 @@ GameObject:
   - component: {fileID: 2460057925500967564}
   - component: {fileID: -8484557689026662527}
   - component: {fileID: 3803091888932214398}
+<<<<<<< HEAD
   - component: {fileID: -2464551020401796479}
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
   m_Layer: 12
   m_Name: Laser
   m_TagString: AttackAbility
@@ -4941,6 +4944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_TimeToDestruction: 4
+<<<<<<< HEAD
 --- !u!82 &-2464551020401796479
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5037,3 +5041,5 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+>>>>>>> 1ddbaaec37360c3a12c38faabdf2b8e3ba648c75
